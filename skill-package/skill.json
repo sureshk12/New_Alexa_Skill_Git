@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "name": "My skill",
+          "description": "Sample Full Description"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:252897114646:function:ask-myskill-default-default-1605154941362"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
